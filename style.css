@@ -1,11 +1,71 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.div1{
-    width: 300px;
-    height: 300px;
-    background-image: url("./img/1.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+/* .div1{
+    background-color: violet;
+    width: 1000px;
+    height: 200px;
+}
+@media only screen and (max-width:800px){
+    .div1{
+        width: 700px;
+        background-color: silver;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .div1{
+        width: 800px;
+        background-color: green;
+    }
+} */
+
+
+/* .divs{
+    width: 100%;
+    background-color: darkkhaki;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.item {
+    width: 22%;
+    margin: 20px 0;
+    background-color: antiquewhite;
+    height: 200px;
+}
+
+
+@media only screen and (max-width:1000px) and (min-width:800px){
+    .item{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:800px) and (min-width:500px){
+    .item{
+        width: 45%;
+    }
+}
+
+
+
+ */
+.karmir{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+.nkar{
+    float: left;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+.karmir p{
+    background-color: blue;
+    float: right;
+    width: 400px;
 }
